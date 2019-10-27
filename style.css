@@ -206,7 +206,13 @@ input {
 @media screen and (max-width: 700px) {
     #product-features-area-container {
         width: 90%;
-        margin-top: 10%;
+        margin-top: 20%;
+    }
+}
+@media screen and (max-width: 350px){
+    #product-features-area-container {
+        width: 98%;
+        margin-top: 40%;
     }
 }
 
@@ -214,7 +220,6 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border:1px solid black;
     padding-top:8%;padding-bottom:8%;
 }
 
@@ -247,7 +252,6 @@ input {
     .feature-container {
         display: block;
         margin: 1%;
-
     }
 
     .feature-container * {
@@ -266,6 +270,14 @@ input {
         font-size: 1.2em;
         width: auto;
         text-align: center;
+    }
+}
+@media screen and (max-width: 350px){
+    .feature-icon-container {
+        font-size: 3em;
+    }
+    .feature-text-container {
+        font-size: 1em;
     }
 }
 
