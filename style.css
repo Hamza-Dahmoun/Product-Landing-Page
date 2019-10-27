@@ -148,20 +148,34 @@ input {
 }
 
 @media screen and (max-width: 800px) {
-
     form {
-        margin-right: auto;
-        margin-left: auto;
-        width: 50%;
+        width: 40%;
         margin-bottom: 10%;
     }
 }
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     form {
-        margin-right: auto;
-        margin-left: auto;
-        width: 90%;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 450px) {
+    form {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 300px) {
+    form {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 250px) {
+    form {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 200px) {
+    form {
+        width: 98%;
     }
 }
 
@@ -171,6 +185,7 @@ input {
     color: #fff;
     cursor: pointer;
     border: 1px solid #CC1632;
+    transition-duration: 0.5s;
 }
 
 #submit:hover {
