@@ -283,13 +283,31 @@ input {
 }
 
 iframe{
-   height: 100%;width: 70%;display: block;margin-left: auto;margin-right: auto;
+   height: 380px;width: 480px;
+   display: block;
+   margin-left: auto;margin-right: auto;
 }
 @media screen and (max-width: 500px){
 iframe{
-   height: 100%;width: 95%;display: block;
+   height: 190px;width: 280px;
 }
 }
+@media screen and (max-width: 300px){
+    iframe{
+       height: 150px;width: 220px;
+    }
+    }
+    @media screen and (max-width: 230px){
+        iframe{
+           height: 150px;width: 170px;
+        }
+        }
+        @media screen and (max-width: 185px){
+            iframe{
+               height: 130px;width: 150px;
+            }
+            }
+
 
 #pricing-container{
     display: flex; flex-direction: row; flex-wrap: wrap;justify-content: space-around;
