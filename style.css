@@ -313,16 +313,55 @@ iframe{
     display: flex; flex-direction: row; flex-wrap: wrap;justify-content: space-around;
     width:70%;margin-right: auto;margin-left: auto;
     margin-top: 5%;
-    font-size: 1.5em;
-}
-.price-category-container p{
-    text-align: center;
-    font-size: 2.2em;
 }
 @media screen and (max-width: 700px) {
     #pricing-container {
         width: 90%;
         margin-top: 10%;
+    }
+}
+@media screen and (max-width: 300px) {
+    #pricing-container {
+        width: 98%;
+    }
+}
+
+.price-category-container p{
+    text-align: center;
+    font-size: 2.8em;
+}
+.price-category-container ul{
+    text-align: left;
+    font-size: 1.5em;
+}
+@media screen and (max-width: 800px) {
+    .price-category-container p{
+        text-align: center;
+        font-size: 2.5em;
+    }
+    .price-category-container ul{
+        text-align: left;
+        font-size: 1.3em;
+    }
+}
+@media screen and (max-width: 600px) {
+    .price-category-container p{
+        text-align: center;
+        font-size: 2.1em;
+    }
+    .price-category-container ul{
+        text-align: left;
+        font-size: 1.1em;
+    }
+}
+@media screen and (max-width: 300px) {
+    .price-category-container p{
+        text-align: center;
+        font-size: 1.8em;
+    }
+    .price-category-container ul{
+        text-align: left;
+        font-size: 1em;
     }
 }
 
